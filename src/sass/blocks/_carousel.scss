@@ -5,11 +5,11 @@
         width: 750px;
         margin: 0 auto;
     }
-    .slick-prev, .slick-next {
+    .slick-prev, .slick-next  {
         position: absolute;
         top: 50%;
-        left: -66px;
         transform: translateY(-50%);
+        left: -66px;
         border: none;
         background-color: #fff;
         img {
@@ -17,8 +17,8 @@
             height: 50px;
         }
     }
-    .slick-next {
-        left: auto;
+    .slick-next  {
         right: -66px;
+        left: auto;
     }
 }
