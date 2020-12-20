@@ -36,6 +36,15 @@
         margin: 0 auto;
         margin-top: 36px;
     }
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+        &-item {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
 }
 @media (max-width: 767px) {
     .header {
@@ -54,6 +63,11 @@
             &:last-child {
                 margin-bottom: 0;
             }
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 575px;
         }
     }
 }
@@ -89,6 +103,11 @@
     .header {
         &__official {
             margin-top: 20px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 320px;
         }
     }
 }
